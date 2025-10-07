@@ -12,6 +12,7 @@
       "location": "Paris",
       "arrivalDate": "2025-06-12",
       "departureDate": "2025-06-16",
+      "transportation": { "mode": "Flight", "cost": 155.50 },
       "activities": [
         { "title": "Louvre Museum Tour", "time": "10:00 AM" },
         { "title": "Seine River Cruise", "time": "07:30 PM" }
@@ -21,9 +22,20 @@
       "location": "Rome",
       "arrivalDate": "2025-06-16",
       "departureDate": "2025-06-20",
+      "transportation": { "mode": "Train", "cost": 89.00 },
       "activities": [
         { "title": "Colosseum & Forum Walk", "time": "09:30 AM" },
         { "title": "Trastevere Food Tasting", "time": "06:00 PM" }
+      ]
+    },
+    {
+      "location": "Barcelona",
+      "arrivalDate": "2025-06-20",
+      "departureDate": "2025-06-24",
+      "transportation": { "mode": "Flight", "cost": 120.00 },
+      "activities": [
+        { "title": "Sagrada Família Tour", "time": "11:00 AM" },
+        { "title": "Tapas in El Born", "time": "07:00 PM" }
       ]
     }
   ]
